@@ -1,0 +1,16 @@
+# Backup Configuration File
+# Paths relative to root to back up.  List of directories.
+# Put in quotes if there are spaces in the name.
+back_paths:
+  -  AuroraResearch
+  -  email
+  -  Ikehu
+  -  "Users/rod/Documents"
+
+# Paths to exclude.  List of path fragments (no regexps).
+exclude_paths: 
+  -  .metadata
+  -  Amazon # In Documents folder
+  -  extensions # in Thunderbird profile
+#  -  logfile # Zindus in Thunderbird profile, but a filename, so not caught by exclude paths.
+
